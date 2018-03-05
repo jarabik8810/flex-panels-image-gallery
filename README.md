@@ -12,9 +12,9 @@ Link to view the prohect: https://jarabik8810.github.io/flex-panels-image-galler
   
   How worsk JS in the project:
   
-  There is a const panels what contains the all HTML panel.
+  There is a const panels what contains the all HTML panels.
   Then the next step is a toggleOpen function which contains a this.classList.toggle('open') code . This code adds the open class to element which we click on.
-  And then the next is a toggleActive function which contains an if statement which decides the of e.propertyName.includes('flex') that the element contains flex propert if it is true then it gives a toggle classList which is open-active .
+  And then the next is a toggleActive function which contains an if statement which decides of e.propertyName.includes('flex') that the element contains flex proper. If it is true then it gives a toggle classList which is open-active .
   And more there are two forEach() method of the end of the codeblock which contain addEventListener() methods.
   
   
